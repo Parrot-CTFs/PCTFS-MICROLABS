@@ -1,0 +1,30 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    background: #142B49;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    /* Ensuring the text is readable on the dark background */
+}
+
+body {
+    background-color: #142B49;
+    color: #fff;
+    /* Ensuring the text is readable on the dark background */
+}
